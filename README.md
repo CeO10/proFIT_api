@@ -2,9 +2,9 @@
 This is a RESTful API project for a fitness company. This API has CRUD functionality and will power the frontend of the application. It is build with **Nodejs**, **MongoDB** and **Redis** and will help individuals work towards achieving wellness.
 
 # Features
-**User Roles:** Support roles for users/customers to book and engage with sessions, trainers that manage sessions, and the administrators.
-**Session Management:** Trainers and administrators can create and manage sessions.
-**REal Time Notification:** Notify users in real time about goal achievements. 
+1. **User Roles:** Support roles for users/customers to book and engage with sessions, trainers that manage sessions, and the administrators.
+2. **Session Management:** Trainers and administrators can create and manage sessions.
+3. **Real Time Notification:** Notify users in real time about goal achievements. 
 
 # Table Of Content
 1. [Installation](#installation)
@@ -40,15 +40,15 @@ The application uses environment variables added to the `.env` file.
 2. Configure Redis using the `REDIs_HOST`, `REDIS_PORT` and `REDIS_PASSWORD` in the `.env` file
 
 ## Running the Application
-Run the application locally following the setup above using
+Run the application locally following the setup above using;
 ```bash
 npm start
 ```
 
 ## External Dependencies
-**Redis:** to run locally.
-**MongoDB:** use for database.
-**WebSocket:** for real time notification.
+1. **Redis:** to run locally.
+2. **MongoDB:** use for database.
+3. **WebSocket:** for real time notification.
 
 
 This README contains a walkthrough for the setup, configuration and deployment of the application. This can be adjusted as the application evolves.
